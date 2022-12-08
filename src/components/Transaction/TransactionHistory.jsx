@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
-
-export const TransactionHistory = ({ items }) => {
+const TransactionHistory = ({ items }) => {
     return (
         <table class="transaction-history">
             <thead>
@@ -23,6 +22,8 @@ export const TransactionHistory = ({ items }) => {
             </table>
     );
 }
+
+export default TransactionHistory;
 
 TransactionHistory.propTypes={
     id: PropTypes.string,
