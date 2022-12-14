@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Maryna-Korbet/goit-react-hw-01-components/static/css/main.3e6c9deb.css",
-    "main.js": "/Maryna-Korbet/goit-react-hw-01-components/static/js/main.8be8dd0f.js",
+    "main.css": "/Maryna-Korbet/goit-react-hw-01-components/static/css/main.86c0f14d.css",
+    "main.js": "/Maryna-Korbet/goit-react-hw-01-components/static/js/main.65feb59b.js",
     "index.html": "/Maryna-Korbet/goit-react-hw-01-components/index.html",
-    "main.3e6c9deb.css.map": "/Maryna-Korbet/goit-react-hw-01-components/static/css/main.3e6c9deb.css.map",
-    "main.8be8dd0f.js.map": "/Maryna-Korbet/goit-react-hw-01-components/static/js/main.8be8dd0f.js.map"
+    "main.86c0f14d.css.map": "/Maryna-Korbet/goit-react-hw-01-components/static/css/main.86c0f14d.css.map",
+    "main.65feb59b.js.map": "/Maryna-Korbet/goit-react-hw-01-components/static/js/main.65feb59b.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e6c9deb.css",
-    "static/js/main.8be8dd0f.js"
+    "static/css/main.86c0f14d.css",
+    "static/js/main.65feb59b.js"
   ]
 }
