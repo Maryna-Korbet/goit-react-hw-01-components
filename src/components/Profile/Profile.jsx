@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import css from 'components/Profile/Profile.module.css';
 
-export default function Profile({ username, tag, location, avatar, stars }) { 
+export default function Profile({ username, tag, location, avatar, stats:{followers, views, likes}}) { 
     return (
         <div className={css.profile}>
             <div className={css.description}>
@@ -17,15 +17,15 @@ export default function Profile({ username, tag, location, avatar, stars }) {
 
             <ul className={css.stats}>
                 <li>
-                    <span className={css.label}>{stars.followers}</span>
+                    <span className={css.label}>{followers}</span>
                     <span className={css.quantity}>1000</span>
                 </li>
                 <li>
-                    <span className={css.label}>{stars.views}</span>
+                    <span className={css.label}>{views}</span>
                     <span className={css.quantity}>2000</span>
                 </li>
                 <li>
-                    <span className={css.label}>{stars.likes}</span>
+                    <span className={css.label}>{likes}</span>
                     <span className={css.quantity}>3000</span>
                 </li>
             </ul>
@@ -38,5 +38,9 @@ Profile.propTypes = {
     tag: PropTypes.string.isRequired,
     location: PropTypes.string.isRequired,
     avatar: PropTypes.string.isRequired,
-    stars: PropTypes.object.isRequired,
+    stats: PropTypes.exact({
+        followers:PropTypes.number.isRequired,
+        views: PropTypes.number.isRequired,
+        likes:PropTypes.number.isRequired,
+    }),
 };
